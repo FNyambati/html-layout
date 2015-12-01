@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+html,body {
+  height:100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+.left {
+  background-color: #4A90E2;
+}
+.middle {
+  background-color: #50E3C2;
+
+}
+.column {
+  width: 33%;
+  height: 100%;
+  float:left;
+}
+.green {
+  background-color: #B8E986;
+  height: 70%;
+  width: 100%;
+}
+.red {
+  background-color: #D0021B;
+  height: 30%;
+  width: 100%;
+  text-align: center;
+ }
+ span {
+  color:white;
+  font-size: 20px;
+  font-family: sans-serif;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+ }
